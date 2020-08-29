@@ -1,8 +1,15 @@
 import React from 'react';
 
+import Header from '../../components/Header';
+
+import homeImg from '../../assets/homeImg.svg';
+
 const Dashboard: React.FC = () => {
   return (
-    <h1>Dashboard</h1>
+    <>
+      <Header />
+      <img src={homeImg} alt="Home" />
+    </>
   );
 };
 
