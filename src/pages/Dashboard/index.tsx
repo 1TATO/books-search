@@ -23,12 +23,12 @@ const Dashboard: React.FC = () => {
               <span> editora</span>.
             </p>
 
-              <button className='search'>
-            <Link to="/search">
+            <button className='search'>
+              <Link to="/search">
                 Pesquisar
                 <FiArrowRight />
-            </Link>
-              </button>
+              </Link>
+            </button>
           </div>
 
           <div className="home-img">
