@@ -86,7 +86,6 @@ const Search: React.FC = () => {
                       ? <p><span>Editora: </span>{book.volumeInfo.publisher}</p>
                       : <p><span>Editora: </span>Não informado</p>
                     }
-
                   </div>
 
                   <Link to={`/details/${book.id}`}>
