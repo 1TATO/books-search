@@ -15,7 +15,6 @@ interface Book {
     authors: string;
     publisher: string;
     pageCount: number;
-    publishedDate: Date;
     imageLinks: {
       smallThumbnail: string;
     }
@@ -36,7 +35,7 @@ const Search: React.FC = () => {
     }
 
     try {
-      const response = await booksListApi.get(`/${searchBook}&maxResults=40`);
+      const response = await booksListApi.get(`?q=/${searchBook}&maxResults=40`);
 
       setBooks(response.data.items);
       setSearchBook('');
@@ -90,7 +89,7 @@ const Search: React.FC = () => {
 
                   </div>
 
-                  <Link to='#'>
+                  <Link to={`/details/${book.id}`}>
                     <button>
                       Detalhes
                   </button>
