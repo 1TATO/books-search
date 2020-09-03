@@ -8,23 +8,18 @@ export const Container = styled.div`
   box-shadow: 0.2rem 0.2rem 0.2rem #00000025;
   position: relative;
 
-  a {
-    position: absolute;
+  > a {
     text-decoration: none;
-    background-color: var(--primary-color);
-    padding: 0.6rem 1.3rem;
-    border-radius: 5px;
-    font-weight: bold;
-    left: 5rem;
-    bottom: 1rem;
-    color: black;
-
-    & + a {
-      margin-left: 10rem;
+    color: var(--primary-color);
+    
+    svg {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin: 1.5rem 0 0 5rem;
     }
 
     &:hover {
-      background: ${shade(0.1, '#59AFE6')};
+      color: ${shade(0.1, '#59AFE6')};
     }
   }
 `;
@@ -57,6 +52,27 @@ export const BookDetails = styled.div`
       span {
         font-weight: bold;
       }
+    }
+  }
+
+  a {
+    position: absolute;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 0.6rem 1.3rem;
+    border-radius: 5px;
+    font-weight: bold;
+    left: 5rem;
+    bottom: 1rem;
+    color: black;
+    margin-right: 10rem;
+
+    & + a {
+      margin-left: 10rem;
+    }
+
+    &:hover {
+      background: ${shade(0.1, '#59AFE6')};
     }
   }
 `;
