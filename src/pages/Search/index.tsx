@@ -56,6 +56,7 @@ const Search: React.FC = () => {
               value={searchBook}
               onChange={(e) => setSearchBook(e.target.value)}
               placeholder="Nome do livro, autor ou editora"
+              autoFocus
             />
             <button type="submit">Pesquisar</button>
           </Form>
