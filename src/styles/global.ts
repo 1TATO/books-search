@@ -15,7 +15,9 @@ export default createGlobalStyle`
   #root {
     max-width: 1120px;
     margin: 0 auto;
-    padding: 70px 20px;
+    padding: 40px 20px;
+    --primary-color: #59AFE6;
+    --secondary-color: #34325E;
   }
 
   button {
