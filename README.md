@@ -42,6 +42,9 @@
   <img alt="BookDetails" title="#BookDetails" src="https://github.com/1TATO/books-search/blob/master/github/detalhes.png" width="500px" />
 </p>
 
+## You can try this app here
+<h4>Deploy: https://books-search-jose.netlify.app</h4>
+
 ## :rocket: Technologies
 
 -  [ReactJS](https://reactjs.org/)
@@ -66,4 +69,4 @@ $ yarn install
 This project is under the MIT license. See the [LICENSE](https://github.com/1TATO/books-search/blob/master/LICENSE) for more information.
 
 ---
-Made with ♥ by Luke Morales :wave: [Get in touch!](https://www.linkedin.com/in/jose-netopr/)
+Made with ♥ by José Neto :wave: [Get in touch!](https://www.linkedin.com/in/jose-netopr/)
