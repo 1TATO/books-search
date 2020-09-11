@@ -16,11 +16,19 @@ export const Container = styled.div`
       width: 2.5rem;
       height: 2.5rem;
       margin: 1.5rem 0 0 5rem;
+
+      @media (max-width: 640px) {
+        margin-left: 0;
+      }
     }
 
     &:hover {
       color: ${shade(0.1, '#59AFE6')};
     }
+  }
+
+  @media (max-width: 640px) {
+    height: 80vh;
   }
 `;
 
@@ -39,6 +47,11 @@ export const BookDetails = styled.div`
   img {
     width: 20rem;
     height: 20rem;
+
+    @media (max-width: 640px) {
+      width: 60%;
+      height: 40%;
+    }
   }
 
   .info {
@@ -73,6 +86,10 @@ export const BookDetails = styled.div`
 
     &:hover {
       background: ${shade(0.1, '#59AFE6')};
+    }
+
+    @media (max-width: 640px) {
+      left: 1rem;
     }
   }
 `;
